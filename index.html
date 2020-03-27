@@ -10,7 +10,7 @@
 </head>
 <body>
   <div class="containter">
-    <p class="header">Language Selector
+    <p class="header">Language Selector</p>
       <form class="form-control" id="formOne" action="">
 
         <p class="languageSelectorQuestion">How do you feel about software development</p>
@@ -28,26 +28,35 @@
           <option value="D">Apple iOS</option>
           <option value="E">Android</option>
         </select>
+
         <p id="languageSelectorQuestion">When are you able to focus best?</p>
         <select class="form-control" name="" id="timeOfDay">
           <option value="A">Day</option>
           <option value="B">Night</option>
         </select>
+
         <p id="languageSelectorQuestion">Are you interested in unpaid experience?</p>
         <select class="form-control" name="" id="volunteer">
           <option value="A">No</option>
           <option value="B">Yes</option>
         </select>
+
         <p id="languageSelectorQuestion">Where is your ideal learning enviroment?</p>
         <select class="form-control" name="" id="location">
           <option value="A">Miami</option>
           <option value="B">Beverly Hills</option>
           <option value="C">Aspen</option>
         </select>
+
           <button type="submit" class="btn">submit</button>
           <button type="try" onclick="reload()">clear</button>
       </form>
-    </p>
+      <div class="jumbotron">
+        <p class="result" id="majorityA"></p>
+        <p class="result" id="majorityB"></p>
+        <p class="result" id="majorityC"></p>
+      
+      </div>
   </div>
   
 </body>
