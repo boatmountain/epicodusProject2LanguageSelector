@@ -11,6 +11,26 @@
 <body>
   <div class="containter">
     <p class="header">Language Selector</p>
+    <div id="quizResultResponse">
+      <div id="low">
+        <p> 
+          <h3>Ruby</h3>
+          <img src="img/ruby.png" alt="image of ruby programming language icon">
+        </p>
+      </div>
+      <div id="middle">
+        <p class="result" id="middle">
+          <h3>Javascript</h3>
+          <img src="img/javascript.png" alt="">
+        </p>
+      </div>
+      <div id="high">
+        <p class="result" id="high">
+          <h3>Swift</h3>
+          <img src="img/swift.png" alt="">
+        </p>
+      </div>
+    </div>
       <form class="form-control" id="formOne" action="">
         <ol>
           <li>
@@ -63,27 +83,10 @@
               </ul>
             </select>
           </li>
-      </ol>
-
-          <button type="submit" class="btn">submit</button>
-          <button type="try" onclick="reload()">clear</button>
+        </ol>
+        <button type="submit" class="btn">submit</button>
+        <button type="try" onclick="reload()">clear</button>
       </form>
-      <div class="jumbotron">
-        <p class="result" id="low"> 
-          <h3>Ruby</h3>
-          <img src="img/ruby.png" alt="image of ruby programming language icon">
-        </p>
-        <p class="result" id="middle">
-          <h3>Javascript</h3>
-          <img src="img/javascript.png" alt="">
-        </p>
-        <p class="result" id="high">
-          <h3>Swift</h3>
-          <img src="img/swift.png" alt="">
-        </p>
-      
-      </div>
-  </div>
-  
-</body>
+    </div>
+  </body>
 </html>
