@@ -6,7 +6,7 @@
 
 ## Description
 
-Script from assignment 
+<!-- Script from assignment 
 
 Programming Language Suggester
 Create an application for people interested in coding to decide which language they should learn first. Keep in mind that even though all languages have similarities and switching between languages and platforms is very common in both internships and jobs, applicants should still put some thought into which language they should learn.
@@ -52,7 +52,7 @@ Other enhancements such as more custom CSS, animation, or modals as you desire.
 Submission
 Submit your code for review to the JavaScript and jQuery code review on Epicenter by 5pm on Friday.
 
-Visit the Independent Projects and Code Reviews page for details on how to submit your code, how feedback works and course completion requirements.
+Visit the Independent Projects and Code Reviews page for details on how to submit your code, how feedback works and course completion requirements. -->
 
 
 
