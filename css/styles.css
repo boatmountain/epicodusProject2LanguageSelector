@@ -1,4 +1,8 @@
 /* HTML */
+#header {
+    text-align: center;
+}
+
 #low {
     display: none;
 }
