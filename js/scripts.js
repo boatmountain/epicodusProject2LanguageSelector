@@ -9,6 +9,18 @@ $(document).submit(function() {
 
         var score = question1 + question2 + question3 + question4 + question5;
 
-
+        if (score < 1) {
+            $("#low").show();
+            $("middle").hide();
+            $("high").hide();
+        } else if (score > 1 && 5 < score) {
+            $("#low").hide();
+            $("middle").show();
+            $("high").hide();
+        } else if (score > 5) {
+            $("#low").hide();
+            $("middle").hide();
+            $("high").show();
+        }
     })
 })
