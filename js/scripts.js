@@ -23,4 +23,12 @@ $(document).ready(function() {
             $("high").show();
         };
     });
+    $(".reset-btn").click(function(
+        $("#formOne").trigger("reset");
 });
+
+// $(document).ready(function(){
+//     $(".reset-btn").click(function(
+//         $("#formOne").trigger("reset");
+//     ))
+// })
