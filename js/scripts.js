@@ -8,27 +8,24 @@ $(document).ready(function() {
         var question5Input = parseInt($("#question5").val());
 
         var score = question1Input + question2Input + question3Input + question4Input + question5Input;
+console.log(score);
 
         if (score < 1) {
             $("#low").show();
-            $("middle").hide();
-            $("high").hide();
-        } else if (score > 1 && 5 < score) {
+            $("#middle").hide();
+            $("#high").hide();
+        } else if (score > 1 && 5 > score) {
             $("#low").hide();
-            $("middle").show();
-            $("high").hide();
+            $("#middle").show();
+            $("#high").hide();
         } else if (score > 5) {
             $("#low").hide();
-            $("middle").hide();
-            $("high").show();
+            $("#middle").hide();
+            $("#high").show();
         };
     });
-    $(".reset-btn").click(function(
+        $(".reset-btn").click(function(){
         $("#formOne").trigger("reset");
-});
+    });
 
-// $(document).ready(function(){
-//     $(".reset-btn").click(function(
-//         $("#formOne").trigger("reset");
-//     ))
-// })
+})
