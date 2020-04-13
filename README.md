@@ -11,6 +11,7 @@ This is a project utilizing branching with Javascript and JQuery.  This project 
 ## Bugs
 
 This software is full of bugs and isn't operational to spec as of 4/3/20.
+This software is not plagued with bugs and is operational to spec as of 4/13/20.
 
 Successful attempts at this project can be located at:
 https://github.com/eggthecat/programLanguageSelector
